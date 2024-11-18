@@ -1,0 +1,52 @@
+div {
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+.board {
+    width: 42vw;
+    margin: 10vh auto auto;
+    outline: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.board .field {
+    border: 1px solid black;
+    width: 6vw;
+    height: 6vw;
+}
+
+.board .field:first-child {
+    display: block;
+}
+
+.board .field .piece {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    margin: 0.5vw;
+}
+
+.board .field .b {
+    background-color: blue;
+}
+
+.board .field .r {
+    background-color: red;
+}
+
+.controls button {
+    font-size: 70%;
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.controls {
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+}
